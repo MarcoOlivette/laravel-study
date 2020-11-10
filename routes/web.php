@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/contato', function () {
+    return view('site.contato');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
